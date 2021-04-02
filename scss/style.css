@@ -32,7 +32,7 @@
   --breakpoint-md:768px;
   --breakpoint-lg:992px;
   --breakpoint-xl:1200px;
-  --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  --font-family-sans-serif:'Montserrat', sans-serif;
   --font-family-monospace:"SFMono-Regular",Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
 
 @media print {
@@ -87,7 +87,8 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -375,7 +376,10 @@ hr {
 
 .list-inline {
   padding-left: 0;
-  list-style: none; }
+  list-style: none; 
+  display: flex;
+  justify-content:center;
+}
 
 .list-inline-item {
   display: inline-block; }
@@ -3951,7 +3955,8 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4047,7 +4052,8 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6155,7 +6161,7 @@ body.fancybox-iosfix {
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 .fancybox-bg, .fancybox-inner, .fancybox-outer, .fancybox-stage {
   position: absolute;
@@ -6850,7 +6856,7 @@ li.fancybox-thumbs-loading {
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-@font-face {
+/* @font-face {
   font-family: 'FontAwesome';
   src: url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/fontawesome-webfont.eot?v=4.7.0");
   src: url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
@@ -9152,7 +9158,7 @@ li.fancybox-thumbs-loading {
   content: "\f2de"; }
 
 .fa-meetup:before {
-  content: "\f2e0"; }
+  content: "\f2e0"; } */
 
 .sr-only {
   position: absolute;
@@ -9263,26 +9269,26 @@ li.fancybox-thumbs-loading {
 
 /*=== MEDIA QUERY ===*/
 @font-face {
-  font-family: 'bebas_neue_regular';
-  src: url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/bebasneue_regular-webfont.woff2") format("woff2"), url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/bebasneue_regular-webfont.woff") format("woff"); }
+  font-family: 'Merriweather', serif;
+}
 
 @font-face {
-  font-family: 'butlerbold';
-  src: url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/butler_bold-webfont.woff2") format("woff2"), url("https://themes.gohugo.io/theme/omega-hugo-theme/fonts/butler_bold-webfont.woff") format("woff"); }
+  font-family: 'Montserrat', sans-serif;
+ }
 
 body {
   line-height: 1.5;
-  font-family: "bebas_neue_regular";
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 p {
-  font-family: "bebas_neue_regular";
+ font-family: 'Montserrat', sans-serif;;
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "butlerbold";
+  font-family: 'Merriweather', serif;
   color: #fff; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9379,7 +9385,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #0a6446;
+  background-color: #515c9c;
   transform: scaleX(0);
   transform-origin: 0 50%;
   animation-duration: 1s;
@@ -9563,7 +9569,7 @@ body {
         letter-spacing: 2px;
         font-weight: 400;
         font-size: 20px;
-        font-family: "bebas_neue_regular"; }
+        font-family: 'Montserrat', sans-serif;}
         @media (max-width: 1200px) {
           .hero-slider-wrapper .item .content h3 {
             font-size: 20px;
@@ -9625,7 +9631,7 @@ body {
     position: relative;
     font-size: 13px;
     margin-top: 20px;
-    font-family: "bebas_neue_regular"; }
+    font-family: 'Montserrat', sans-serif;}
     .scroll h6::before {
       position: absolute;
       content: '';
@@ -9824,7 +9830,7 @@ body {
   z-index: 6; }
   .visions::before {
     content: 'EUROPIFY';
-    font-family: "bebas_neue_regular";
+    font-family: 'Montserrat', sans-serif;;
     position: absolute;
     top: 18%;
     width: 100%;
@@ -10193,7 +10199,7 @@ body {
   .map-div .office {
     position: absolute;
     top: 0;
-    transform: translate(80px, -190px); }
+    transform: translate(100px, 280px); }
     @media (max-width: 991px) {
       .map-div .office {
         top: 0;
