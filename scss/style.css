@@ -9823,7 +9823,7 @@ body {
   position: relative;
   z-index: 6; }
   .visions::before {
-    content: 'MADE THINGS';
+    content: 'EUROPIFY';
     font-family: "bebas_neue_regular";
     position: absolute;
     top: 18%;
@@ -10193,7 +10193,7 @@ body {
   .map-div .office {
     position: absolute;
     top: 0;
-    transform: translate(180px, -90px); }
+    transform: translate(80px, -190px); }
     @media (max-width: 991px) {
       .map-div .office {
         top: 0;
