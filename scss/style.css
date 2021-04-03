@@ -7166,8 +7166,8 @@ body {
     -webkit-transform: scale(1); } }
 
 .nav-section {
-  padding: 20px 0; 
-  background: #28243a;
+  padding: 10px 0; 
+  background: #354781c5;
   position: fixed;
   z-index: 9999;
   width: 100%;}
