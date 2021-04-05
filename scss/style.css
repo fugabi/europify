@@ -6134,7 +6134,7 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-/*# sourceMappingURL=bootstrap.min.css.map */
+
 body.fancybox-active {
   overflow: hidden; }
 
@@ -7103,6 +7103,7 @@ body {
     transform: scaleX(0); } }
 
 .image-reveal, .hero-slider-wrapper .item .item-image {
+  
   transform: scaleX(0);
   transform-origin: left;
   transition: all 1s cubic-bezier(1, 0.01, 0, 1);
@@ -7124,6 +7125,7 @@ body {
     transform: scaleX(1); }
     .image-reveal.trigger:after, .hero-slider-wrapper .item .trigger.item-image:after {
       transform: translateX(100%); }
+      
 
 .preloader {
   height: 100%;
@@ -7546,7 +7548,7 @@ body {
           transform: translateY(0);
           margin-bottom: 30px; } }
     .visions .vision-item:nth-child(2) {
-      transform: translateX(552px); }
+      transform: translateX(220px); }
       @media (max-width: 1200px) {
         .visions .vision-item:nth-child(2) {
           transform: translateX(150px); } }
@@ -7614,7 +7616,7 @@ body {
     .vision-slider-wrapper .slick-prev {
       bottom: 0; } }
 .products {
-  padding: 100px 0;
+  padding: 20px 0;
   position: relative; }
   @media (max-width: 767px) {
     .products {
@@ -7708,7 +7710,7 @@ body {
           line-height: 25px;
           max-width: 100%; } }
 .product-slider-wrapper {
-  padding-top: 175px;
+  padding-top: 100px;
   padding-bottom: 135px;
   position: relative;
   z-index: 3;
@@ -7782,9 +7784,10 @@ body {
     border: none;
     outline: none; }
     .product-slider-wrapper .slick-prev i, .product-slider-wrapper .slick-next i {
-      color: #fff;
-      opacity: .33;
-      font-size: 20px; }
+      color: #FF1D5D;
+      
+      /* opacity: .33; */
+      font-size: 30px; }
     .product-slider-wrapper .slick-prev:hover i, .product-slider-wrapper .slick-next:hover i {
       opacity: 1; }
   .product-slider-wrapper .slick-next {
@@ -8012,15 +8015,16 @@ ul.social-list li a {
   cursor: pointer; }
 
 .job-list .block {
-  padding: 50px 80px;
-  background: #127c8d; }
+  padding: 2em 2em;
+  background: #12608d; }
   .job-list .block h2 {
     margin-bottom: 60px;
     font-size: 30px; }
   .job-list .block .job {
     padding: 50px 10px;
-    border-top: 1px solid #d8dbdd;
-    display: flex; }
+    border-bottom: 1px dotted #d8dbdd;
+    /* display: flex;  */
+  }
     @media (max-width: 767px) {
       .job-list .block .job {
         flex-wrap: wrap; } }
@@ -8031,7 +8035,7 @@ ul.social-list li a {
           flex-basis: 100%;
           width: 100%;
           flex-grow: 1;
-          text-align: center;
+          /* text-align: center; */
           margin-bottom: 30px; } }
       .job-list .block .job .content h3 {
         margin-bottom: 15px;
@@ -8109,44 +8113,48 @@ ul.social-list li a {
     text-decoration: none; }
 
 .footer {
-  padding: 150px 0;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  padding: 20px 0 15px 0;
+  /* position: fixed; */
+  /* bottom: 0; */
   width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%;
+  transform: translateX(-50%); */
   background: #FF1D5D;
-  display: none; }
+  /* margin-bottom: 0px; */
+  /* display:none; */
+   }
   @media (max-width: 991px) {
     .footer {
-      padding: 80px 0; } }
+      padding-top: 20px; } }
   .footer.show {
     display: block; }
   .footer .call-to-action {
+    
     width: 100%; }
     .footer .call-to-action h2 {
-      font-size: 45px;
-      margin-bottom: 60px; }
+      font-size: 25px;
+      margin-bottom: 10px; }
       @media (max-width: 991px) {
         .footer .call-to-action h2 {
-          font-size: 40px; } }
+          font-size: 25px; } }
       @media (max-width: 575px) {
         .footer .call-to-action h2 {
-          font-size: 30px;
-          margin-bottom: 45px; } }
-    .footer .call-to-action p {
-      margin-bottom: 45px;
+          font-size: 25px;
+          margin-bottom: 15px; } }
+    /* .footer .call-to-action p {
+      margin-bottom: 15px;
       font-size: 18px;
-      letter-spacing: 2px; }
+     }
       @media (max-width: 575px) {
         .footer .call-to-action p {
           font-size: 14px;
-          margin-bottom: 30px; } }
-    .footer .call-to-action a {
+          margin-bottom: 15px; } } */
+    /* .footer .call-to-action a {
       padding: 15px 40px;
       background: #fff;
       color: #05091D;
       font-weight: 600;
       text-decoration: none;
       letter-spacing: 2px;
-      margin-bottom: 10px; }
+      margin-bottom: 3px; } */
