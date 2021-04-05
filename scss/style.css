@@ -7178,7 +7178,7 @@ body {
 
 .navbar-brand {
   padding: 0;
-  margin-top: -10px; }
+  margin-top: 0px; }
 
 #main-nav .navbar-nav {
   align-self: center; }
@@ -7791,11 +7791,11 @@ body {
     .product-slider-wrapper .slick-prev:hover i, .product-slider-wrapper .slick-next:hover i {
       opacity: 1; }
   .product-slider-wrapper .slick-next {
-    right: 4%;
-    bottom: 1.5%; }
+    right: 1%;
+    bottom: 0.5%; }
   .product-slider-wrapper .slick-prev {
-    right: 6.5%;
-    bottom: 1.5%; }
+    right: 10%;
+    bottom: 0.5%; }
 
 .contact {
   position: relative;
