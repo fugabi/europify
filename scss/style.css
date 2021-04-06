@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue:#007bff;
+  --blue:#4e9ad4;
   --indigo:#6610f2;
   --purple:#6f42c1;
   --pink:#e83e8c;
@@ -8174,7 +8174,7 @@ ul.social-list li a {
   min-height: 350px;
   width: 380px;
   margin: 2rem auto;
-  background: #12608d;
+  background: #4e9ad46e;
   text-align: center;
   color: white;
   padding: 25px 25px;
