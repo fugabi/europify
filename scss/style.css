@@ -8158,3 +8158,54 @@ ul.social-list li a {
       text-decoration: none;
       letter-spacing: 2px;
       margin-bottom: 3px; } */
+
+
+      /* cards */
+
+      
+.cards {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  min-height: 350px;
+  width: 380px;
+  margin: 2rem auto;
+  background: #12608d;
+  text-align: center;
+  color: white;
+  padding: 25px 25px;
+  border-radius: 10px;
+  /* border: 1px solid #81ecec;
+  box-shadow: 
+    -6px -6px 5px 5px #efefef,
+    4px 4px 5px 5px #ccc; */
+}
+
+.card i {
+  font-size: 1rem;
+}
+.card h3 {
+  margin: 1rem 0;
+  font-size: 1.5em;
+}
+.card h4 {
+  margin: 1rem 0;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+.card p {
+  line-height: 1.25rem;
+  padding: 0;
+  margin-top: 25px;
+}
+
+
+.card a {
+  color: #fff;
+  text-decoration: none;
+}
