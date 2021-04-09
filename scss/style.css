@@ -124,7 +124,7 @@ address {
 
 dl, ol, ul {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 5rem; }
 
 ol ol, ol ul, ul ol, ul ul {
   margin-bottom: 0; }
@@ -7183,7 +7183,7 @@ body {
 
 .nav-section {
   padding: 10px 0; 
-  background: #354781c5;
+  background: #354781e1;
   position: fixed;
   z-index: 9999;
   width: 100%;}
@@ -8033,13 +8033,13 @@ ul.social-list li a {
 
 .job-list .block {
   padding: 2em 2em;
-  background: #12608d; }
+  background: #37629D; }
   .job-list .block h2 {
     margin-bottom: 60px;
     font-size: 30px; }
   .job-list .block .job {
     padding: 50px 10px;
-    border-bottom: 1px dotted #d8dbdd;
+    /* border-bottom: 1px dotted #d8dbdd; */
     /* display: flex;  */
   }
     @media (max-width: 767px) {
