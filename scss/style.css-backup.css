@@ -7924,7 +7924,7 @@ body {
           font-size: 25px;
           line-height: 35px;
           margin-bottom: 30px; }
-        .map-div .office .contents .address ul.social-list li a {
+        .map-div .office .contents .address ul.social-media li a {
           height: 50px;
           width: 50px;
           margin-right: 25px;
@@ -7932,7 +7932,7 @@ body {
           text-align: center;
           border-radius: 100%;
           border: 1px solid #9bacbd; }
-          .map-div .office .contents .address ul.social-list li a i {
+          .map-div .office .contents .address ul.social-media li a i {
             line-height: 48px;
             color: #fff; }
         .map-div .office .contents .address .contact-btn {
@@ -7946,14 +7946,14 @@ body {
           .map-div .office .contents .address .contact-btn:hover {
             text-decoration: none; }
 
-ul.social-list li a {
+ul.social-media li a {
   height: 50px;
   width: 50px;
   display: block;
   text-align: center;
   border-radius: 100%;
   border: 1px solid #0a6446; }
-  ul.social-list li a i {
+  ul.social-media li a i {
     line-height: 48px;
     color: #0a6446; }
 

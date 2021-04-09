@@ -1,3 +1,5 @@
+* { outline: 1px solid red; }
+
 @charset "UTF-8";
 /*!
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
@@ -161,14 +163,14 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline; }
+  color: #FF1D5D;
+  text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -7859,7 +7861,7 @@ body {
           content: none; } }
   .contact .text-block {
     position: relative;
-    margin-bottom: 240px;
+    margin-bottom: 100px;
     z-index: 3; }
     @media (max-width: 991px) {
       .contact .text-block {
@@ -7903,6 +7905,7 @@ body {
           line-height: 25px;
           max-width: 100%; } }
 .map-div {
+  box-sizing: border-box;
   position: relative; }
   .map-div #map {
     height: 683px; }
@@ -7912,7 +7915,7 @@ body {
   .map-div .office {
     position: absolute;
     top: 0;
-    transform: translate(100px, 280px); }
+    transform: translate(100px, 420px); }
     @media (max-width: 991px) {
       .map-div .office {
         top: 0;
@@ -7920,7 +7923,13 @@ body {
         transform: translate(-50%, -90px); } }
     @media (max-width: 575px) {
       .map-div .office {
-        display: none; } }
+        top: 0;
+        
+        /* transform: translate(-50%, -30px);  */
+        /* margin: auto; */
+        
+      }
+      } 
     .map-div .office .contents {
       max-width: 690px;
       position: relative; }
@@ -7928,17 +7937,30 @@ body {
         .map-div .office .contents {
           width: 500px;
           margin-top: 480px; } }
+
+
+          @media (max-width: 575px) {
+            .map-div .office .contents {
+              
+              width: 320px;
+              margin-top: 480px; 
+              
+              
+            
+            }
+           }
+
       .map-div .office .contents img {
-        width: 80%; }
+        width: 100%; }
       .map-div .office .contents .address {
         position: absolute;
         bottom: 0;
-        padding: 70px 50px; }
+        padding: 70px 50px 20px 25px; }
         .map-div .office .contents .address h2 {
           font-size: 25px;
           line-height: 35px;
           margin-bottom: 30px; }
-        .map-div .office .contents .address ul.social-list li a {
+        .map-div .office .contents .address ul.social-media li a {
           height: 50px;
           width: 50px;
           margin-right: 25px;
@@ -7946,7 +7968,7 @@ body {
           text-align: center;
           border-radius: 100%;
           border: 1px solid #9bacbd; }
-          .map-div .office .contents .address ul.social-list li a i {
+          .map-div .office .contents .address ul.social-media li a i {
             line-height: 48px;
             color: #fff; }
         .map-div .office .contents .address .contact-btn {
@@ -7960,14 +7982,14 @@ body {
           .map-div .office .contents .address .contact-btn:hover {
             text-decoration: none; }
 
-ul.social-list li a {
+ul.social-media li a {
   height: 50px;
   width: 50px;
   display: block;
   text-align: center;
   border-radius: 100%;
-  border: 1px solid #0a6446; }
-  ul.social-list li a i {
+  border: 1px solid #fff; }
+  ul.social-media li a i {
     line-height: 48px;
     color: #0a6446; }
 
