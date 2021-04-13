@@ -7634,48 +7634,48 @@ body {
   @media (max-width: 767px) {
     .vision-slider-wrapper .slick-prev {
       bottom: 0; } }
-.products {
+.angebote {
   padding: 20px 0;
   position: relative; }
   @media (max-width: 767px) {
-    .products {
+    .angebote {
       padding: 70px 0; } }
-  .products .bg {
+  .angebote .bg {
     position: absolute;
     top: 12%;
     right: 0;
     z-index: 2; }
     @media (max-width: 991px) {
-      .products .bg {
+      .angebote .bg {
         width: 80%; } }
-    .products .bg::before {
+    .angebote .bg::before {
       position: absolute;
       content: '';
       height: 100%;
       width: 100%;
       background: #0a0e52;
       opacity: .75; }
-  .products .left-shape {
+  .angebote .left-shape {
     position: absolute;
     top: -12%; }
-  .products .section-title {
+  .angebote .section-title {
     position: absolute;
     z-index: 2;
     transform: rotate(-90deg);
     top: 150px;
     right: -40px; }
     @media (max-width: 991px) {
-      .products .section-title {
+      .angebote .section-title {
         position: relative;
         top: 0;
         right: 0;
         transform: rotate(0);
         margin-bottom: 30px; } }
-    .products .section-title span {
+    .angebote .section-title span {
       font-size: 17px;
       color: #fff;
       letter-spacing: 12px; }
-    .products .section-title:before {
+    .angebote .section-title:before {
       position: absolute;
       width: 30px;
       height: 1px;
@@ -7684,33 +7684,33 @@ body {
       right: -70%;
       background: #fff; }
       @media (max-width: 991px) {
-        .products .section-title:before {
+        .angebote .section-title:before {
           content: none; } }
-  .products .text-block {
+  .angebote .text-block {
     position: relative;
     z-index: 3; }
-    .products .text-block h2 {
+    .angebote .text-block h2 {
       position: relative;
       margin-bottom: 42px;
       font-size: 60px;
       line-height: 65px;
       letter-spacing: 1px; }
-      .products .text-block h2 span {
+      .angebote .text-block h2 span {
         clip-path: inset(0 100% 0 0);
         text-transform: capitalize; }
       @media (max-width: 991px) {
-        .products .text-block h2 {
+        .angebote .text-block h2 {
           font-size: 50px;
           line-height: 60px; } }
       @media (max-width: 767px) {
-        .products .text-block h2 {
+        .angebote .text-block h2 {
           font-size: 35px;
           line-height: 40px; } }
       @media (max-width: 575px) {
-        .products .text-block h2 {
+        .angebote .text-block h2 {
           font-size: 20px;
           line-height: 25px; } }
-      .products .text-block h2::before {
+      .angebote .text-block h2::before {
         position: absolute;
         content: '';
         width: 130px;
@@ -7718,13 +7718,13 @@ body {
         background: #fff;
         left: 0;
         bottom: -20px; }
-    .products .text-block p {
+    .angebote .text-block p {
       font-size: 20px;
       line-height: 40px;
       letter-spacing: 1px;
       max-width: 80%; }
       @media (max-width: 767px) {
-        .products .text-block p {
+        .angebote .text-block p {
           font-size: 16px;
           line-height: 25px;
           max-width: 100%; } }
@@ -7742,17 +7742,17 @@ body {
     .product-slider-wrapper {
       padding-top: 40px;
       padding-bottom: 40px; } }
-  .product-slider-wrapper .product-item {
+  .product-slider-wrapper .angebot-item {
     position: relative;
     max-width: 380px;
     margin: 0 15px;
     transition: all .3s ease-in-out;
     overflow: hidden;
     cursor: pointer; }
-    .product-slider-wrapper .product-item img {
+    .product-slider-wrapper .angebot-item img {
       transition: all .3s ease-in-out;
       width: 100%; }
-    .product-slider-wrapper .product-item .overlay {
+    .product-slider-wrapper .angebot-item .overlay {
       position: absolute;
       top: 0;
       left: 0;
@@ -7761,35 +7761,35 @@ body {
       transform: scale(0);
       transition: all .3s ease-in-out;
       transform-origin: center center; }
-      .product-slider-wrapper .product-item .overlay .content {
+      .product-slider-wrapper .angebot-item .overlay .content {
         display: flex;
         flex-direction: column;
         background: #fff;
         padding: 0 30px;
         height: calc(100% - 60px);
         justify-content: center; }
-        .product-slider-wrapper .product-item .overlay .content h5 {
+        .product-slider-wrapper .angebot-item .overlay .content h5 {
           color: #05091D;
           margin-bottom: 20px;
           font-size: 30px; }
           @media (max-width: 991px) {
-            .product-slider-wrapper .product-item .overlay .content h5 {
+            .product-slider-wrapper .angebot-item .overlay .content h5 {
               font-size: 25px; } }
-        .product-slider-wrapper .product-item .overlay .content p {
+        .product-slider-wrapper .angebot-item .overlay .content p {
           color: #383838;
           font-size: 16px;
           line-height: 24px;
           letter-spacing: 1px; }
-        .product-slider-wrapper .product-item .overlay .content a {
+        .product-slider-wrapper .angebot-item .overlay .content a {
           font-size: 14px;
           letter-spacing: 3px;
           text-decoration: none;
           font-weight: bold;
           transition: all .3s ease;
           color: #FF1D5D; }
-    .product-slider-wrapper .product-item:hover img {
+    .product-slider-wrapper .angebot-item:hover img {
       transform: scale(1.2); }
-    .product-slider-wrapper .product-item:hover .overlay {
+    .product-slider-wrapper .angebot-item:hover .overlay {
       transform: scale(1); }
   .product-slider-wrapper .slick-list {
     overflow: visible; }
@@ -8053,41 +8053,42 @@ ul.social-media li a {
   overflow: hidden;
   cursor: pointer; }
 
-.job-list .block {
-  padding: 2em 2em;
+.part-list .block {
+  padding: 1em 1em;
   background: #37629D; }
-  .job-list .block h2 {
+  .part-list .block h2 {
     margin-bottom: 60px;
     font-size: 30px; }
-  .job-list .block .job {
+   
+  .part-list .block .part {
     padding: 50px 10px;
     /* border-bottom: 1px dotted #d8dbdd; */
     /* display: flex;  */
   }
     @media (max-width: 767px) {
-      .job-list .block .job {
+      .part-list .block .part {
         flex-wrap: wrap; } }
-    .job-list .block .job .content {
+    .part-list .block .part .content {
       flex-basis: 60%; }
       @media (max-width: 767px) {
-        .job-list .block .job .content {
+        .part-list .block .part .content {
           flex-basis: 100%;
           width: 100%;
           flex-grow: 1;
           /* text-align: center; */
           margin-bottom: 30px; } }
-      .job-list .block .job .content h3 {
+      .part-list .block .part .content h3 {
         margin-bottom: 15px;
         font-size: 25px; }
-      .job-list .block .job .content p {
+      .part-list .block .part .content p {
         font-size: 18px;
         letter-spacing: 1px; }
-    .job-list .block .job .apply-button {
+    .part-list .block .part .apply-button {
       flex-basis: 40%;
       align-self: center;
       text-align: right; }
       @media (max-width: 767px) {
-        .job-list .block .job .apply-button {
+        .part-list .block .part .apply-button {
           flex-basis: 100%;
           width: 100%;
           flex-grow: 1;
@@ -8152,7 +8153,9 @@ ul.social-media li a {
     text-decoration: none; }
 
 .footer {
-  position: absolute;
+   
+  font-weight: bold;
+  position: absolute; 
   padding: 20px 0 15px 0;
   /* position: fixed; */
   /* bottom: 0; */
@@ -8163,6 +8166,12 @@ ul.social-media li a {
   /* margin-bottom: 0px; */
   /* display:none; */
    }
+.footer a {
+  color: white; 
+  text-decoration: none;
+}
+.footer p {
+  margin: 16px 0 16px 0;}
   @media (max-width: 991px) {
     .footer {
       padding-top: 20px; } }
@@ -8173,7 +8182,8 @@ ul.social-media li a {
     width: 100%; }
     .footer .call-to-action h2 {
       font-size: 25px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      }
       @media (max-width: 991px) {
         .footer .call-to-action h2 {
           font-size: 25px; } }
