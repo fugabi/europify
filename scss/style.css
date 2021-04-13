@@ -4664,7 +4664,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   display: block;
   content: ""; }
 
-.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive parl {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -6288,7 +6288,7 @@ body.fancybox-iosfix {
 .fancybox-slide--image:before {
   display: none; }
 
-.fancybox-slide--video .fancybox-content, .fancybox-slide--video iframe {
+.fancybox-slide--parl .fancybox-content, .fancybox-slide--parl iframe {
   background: #000; }
 
 .fancybox-slide--map .fancybox-content, .fancybox-slide--map iframe {
@@ -7013,13 +7013,13 @@ body {
 .section {
   padding: 100px 0; }
 
-.video {
+.parl {
   position: relative; }
-  .video:before {
+  .parl:before {
     border-radius: 3px; }
-  .video img {
+  .parl img {
     width: 100%; }
-  .video .video-button {
+  .parl .parl-button {
     position: absolute;
     left: 0;
     top: 0;
@@ -7032,7 +7032,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100%; }
-  .video .video-box a {
+  .parl .parl-box a {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -7045,7 +7045,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none; }
-    .video .video-box a i {
+    .parl .parl-box a i {
       height: 120px;
       width: 120px;
       font-size: 20px;
@@ -7054,7 +7054,7 @@ body {
       color: #fff;
       line-height: 120px;
       text-align: center; }
-    .video .video-box a iframe {
+    .parl .parl-box a iframe {
       width: 100%;
       height: 100%;
       border: none;
@@ -7460,23 +7460,23 @@ body {
         font-size: 16px;
         line-height: 25px;
         max-width: 100%; } }
-  .mission-content .video {
+  .mission-content .parl {
     position: relative;
     margin-top: 85px;
     margin-left: 200px;
     overflow: hidden; }
     @media (max-width: 991px) {
-      .mission-content .video {
+      .mission-content .parl {
         margin-left: 100px; } }
     @media (max-width: 767px) {
-      .mission-content .video {
+      .mission-content .parl {
         margin-top: 50px;
         margin-left: 0; } }
-    .mission-content .video a {
+    .mission-content .parl a {
       text-align: center;
       outline: 0;
       display: block; }
-      .mission-content .video a i {
+      .mission-content .parl a i {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -7490,18 +7490,18 @@ body {
         border: 4px solid #fff;
         cursor: pointer; }
         @media (max-width: 991px) {
-          .mission-content .video a i {
+          .mission-content .parl a i {
             width: 80px;
             height: 80px;
             line-height: 78px; } }
-    .mission-content .video iframe {
+    .mission-content .parl iframe {
       width: 100%;
       min-height: 500px;
       border: none;
       background: #000;
       padding: 10px 40px; }
       @media (max-width: 1200px) {
-        .mission-content .video iframe {
+        .mission-content .parl iframe {
           min-height: 350px; } }
 .vision {
   padding: 180px 0 100px 0;
@@ -8015,14 +8015,14 @@ ul.social-media li a {
         clip-path: inset(0 100% 0 0); }
     .career-featured .block .content p {
       letter-spacing: 1px; }
-  .career-featured .block .video {
+  .career-featured .block .parl {
     justify-content: center;
     align-self: center;
     flex-basis: 100%;
     margin-left: 10px;
     overflow: hidden; }
     @media (max-width: 767px) {
-      .career-featured .block .video {
+      .career-featured .block .parl {
         flex-grow: 1;
         width: 100%; } }
 .company-fun-facts h2 {
