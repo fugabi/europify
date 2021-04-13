@@ -316,9 +316,9 @@ template {
   
   word-wrap: break-word;
   overflow-wrap: break-word;
-  hyphens: auto;
+  /* hyphens: auto;
   -webkit-hyphens: auto;
-   -moz-hyphens: auto;
+   -moz-hyphens: auto; */
 }
 
 .p {
