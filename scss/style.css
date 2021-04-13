@@ -7824,13 +7824,13 @@ body {
   @media (max-width: 991px) {
     .contact {
       padding-top: 100px;
-      margin-bottom: 335px; } }
+      margin-bottom: 290px; } }
   @media (max-width: 767px) {
     .contact {
       padding-top: 70px; } }
   @media (max-width: 575px) {
     .contact {
-      margin-bottom: 320px; } }
+      margin-bottom: 120px; } }
   .contact .section-title {
     position: absolute;
     z-index: 3;
