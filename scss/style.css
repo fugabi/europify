@@ -163,13 +163,13 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ffffff;
+  color: #7ea5f8;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
 a:hover {
-  color: #FF1D5D;
+  color: #f7799d;
   text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -7777,9 +7777,9 @@ body {
               font-size: 25px; } }
         .product-slider-wrapper .angebot-item .overlay .content p {
           color: #383838;
-          font-size: 16px;
+          font-size: 14px;
           line-height: 24px;
-          letter-spacing: 1px; }
+          letter-spacing: 0.75px; }
         .product-slider-wrapper .angebot-item .overlay .content a {
           font-size: 14px;
           letter-spacing: 3px;
@@ -8055,7 +8055,7 @@ ul.social-media li a {
 
 .part-list .block {
   padding: 1em 1em;
-  background: #37629D; }
+  background: #21326C; }
   .part-list .block h2 {
     margin-bottom: 60px;
     font-size: 30px; }
