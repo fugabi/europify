@@ -7007,6 +7007,8 @@ label {
   font-size: 15px;
   margin-bottom: 5px; }
 
+/* body background */
+
 body {
   background: #354781; }
 
@@ -7185,7 +7187,7 @@ body {
 
 .nav-section {
   padding: 10px 0; 
-  background: #354781e1;
+  background: #354781d5;
   position: fixed;
   z-index: 9999;
   width: 100%;}
@@ -7204,7 +7206,7 @@ body {
   #main-nav .navbar-nav .nav-item .nav-link {
     padding-right: 25px;
     padding-left: 25px;
-    color: #fff;
+    color: #ffffff;
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 2px; }
